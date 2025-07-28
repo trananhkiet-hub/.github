@@ -1,25 +1,785 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>DELL</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayan Adlrdard - Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-
-  <section class="download-section">
-    <div class="download-box">
-      <div class="download-item">
-        <h3>Figma Full Version</h3>
-        <a href="https://jstemplate.net/item/figma-portfolio-template" download>Click Here to Download</a>
+<body> 
+    <div class="container">
+        <div class="main-layout">
+            <!-- Left Sidebar -->
+            <div class="sidebar">
+                <!-- Profile Section -->
+                <div class="profile-section">
+                    <div class="profile-image">
+                        <img src="593a26ab93f7491bcef5ff23ce04f6eb7279adf7.jpg" alt="Rayan Adlrdard">
+                    </div>
+                    <h2 class="profile-name">Rayan Adlrdard</h2>
+                    <p class="profile-title">Front-End Developer</p>
+                     <!-- Social Icons -->
+                    <div class="social-icons">
+                        <div class="social-icon">
+                              <img src="js/img/Icons-facebook.svg" alt="Portfolio item">
+                        </div>
+                        <div class="social-icon">
+                              <img src="js/img/Icons-instagram.svg" alt="Portfolio item">
+                        </div>
+                        <div class="social-icon">
+                              <img src="js/img/Icons-twitter.svg" alt="Portfolio item">
+                        </div>
+                        <div class="social-icon">
+                              <img src="js/img/Icons-linkedin.svg" alt="Portfolio item">
+                        </div>
+                        <div class="social-icon">
+                              <img src="js/img/Icons-Youtube.svg" alt="Portfolio item">
+                        </div>
+                        <div class="social-icon">
+                              <img src="js/img/Icons-dribbble.svg" alt="Portfolio item">
+                        </div>
+                    </div>
+                </div>
+                <!-- Info Cards -->
+                <div class="info-cards">
+                    <div class="info-card">
+                        <span class="info-label">Age:</span>
+                        <span class="info-value">24:</span>
+                    </div>
+                    <div class="info-card">
+                        <span class="info-label">Residence:</span>
+                        <span class="info-value">BD:</span>
+                    </div>
+                    <div class="info-card">
+                        <span class="info-label">Freelance:</span>
+                        <span class="info-value available">Available:</span>
+                    </div>
+                    <div class="info-card">
+                        <span class="info-label">Address:</span>
+                        <span class="info-value">Dhaka,Bangladesh:</span>
+                    </div>
+                </div>
+                <!-- Languages -->
+                <div class="section">
+                    <h3 class="section-title">Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Bangla</span>
+                            <span class="skill-percentage">100%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">English</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Spanish</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skills -->
+                <div class="section">
+                    <h3 class="section-title">Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Html</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">CSS</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Js</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">PHP</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">WordPress</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Extra Skills -->
+                <div class="section">
+                    <h3 class="section-title">Extra Skills</h3>
+                    <div class="extra-skills">
+                        <div class="extra-skill-item">
+                            <img src="js/Icons.svg" alt="" class="">
+                            <span class="bullet"></span>
+                            Bootstrap, Materialize
+                        </div>
+                        <div class="extra-skill-item">
+                            <img src="js/Icons.svg" alt="" class="">
+                            <span class="bullet"></span>
+                            Stylus, Sass, Less
+                        </div>
+                        <div class="extra-skill-item">
+                            <img src="js/Icons.svg" alt="" class="">
+                            <span class="bullet"></span>
+                            Gulp, Webpack, Grunt
+                        </div>
+                        <div class="extra-skill-item">
+                            <img src="js/Icons.svg" alt="" class="">
+                            <span class="bullet"></span>
+                            GIT Knowledge
+                        </div>
+                    </div>
+                </div>
+                <!-- Download CV Button -->
+                <button class="download-btn">   
+                    DOWNLOAD CV  <span><img src = "js/img/tải.svg"></span>
+                </button>
+            </div>
+            <!-- Main Content -->
+            <div class="main-content">
+                <!-- Hero Section -->
+                <div class="hero">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            I'm Rayan Adlrdard<br>
+                            <span class="highlight">Front-end</span> Developer
+                        </h1>
+                        <p class="hero-description">
+                            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Et, Volutpat Feugiat Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.
+                        </p>
+                        <button class="hire-btn">HIRE ME →
+                        </ME></button>
+                    </div>
+                    <div class="hero-image">
+                        <img src="aad37bdf81d3bac886d50f470fcaa991fa4cc196.png" alt="Rayan Adlrdard">
+                    </div>
+                </div>
+                <!-- Services Section -->
+                <div class="services">
+                    <div class="section-header">
+                        <h2>My Services</h2>
+                        <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
+                    </div>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <img src="js/img/coding.svg" alt="1">
+                            </div>
+                            <h3 class="service-title">Web Development</h3>
+                            <p class="service-description">Blog, E-Commerce</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                 <img src="js/img/illustration.svg" alt="1"> 
+                            </div>
+                            <h3 class="service-title">UI/UX Design</h3>
+                            <p class="service-description">Mobile App, Website Design</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                  <img src="js/img/Microphone.svg" alt="1"> 
+                            </div>
+                            <h3 class="service-title">Sound Design</h3>
+                            <p class="service-description">Voice Over, Beat Making</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                  <img src="js/img/game-development.svg" alt="1"> 
+                            </div>
+                            <h3 class="service-title">Game Design</h3>
+                            <p class="service-description">Character Design, Props & Objects</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                  <img src="js/img/Photographer.svg" alt="1"> 
+                            </div>
+                            <h3 class="service-title">Photography</h3>
+                            <p class="service-description">Portrait, Product Photography</p>
+                        </div>
+                        <div class="service-card advertising">
+                            <h3 class="service-title">Advertising</h3>
+                            <p class="service-description">
+                                Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi.
+                            </p>
+                            <a href="#" class="order-link">ORDER NOW →</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Price Plans -->
+                <div class="pricing">
+                    <div class="section-header">
+                        <h2>Price Plans</h2>
+                        <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
+                    </div>
+                    <div class="pricing-grid">
+                        <div class="price-card">
+                            <h3 class="plan-name">Silver</h3>
+                            <div class="plan-price">
+                                <span class="price-amount">$0.00</span>
+                                <span class="price-period">/Hour</span>
+                            </div>
+                            <p class="plan-description">For Most Businesses That Want To Optimize Web Queries</p>
+                            <ul class="features-list">
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> UI Design</li>
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> Web Development</li>
+                                <li class="feature-disabled"><span class="feature-cross">
+                                    <img src="js/img/Close.svg" alt="James Gouse">
+                                </span> Logo Design</li>
+                                <li class="feature-disabled"><span class="feature-cross">
+                                    <img src="js/img/Close.svg" alt="James Gouse">
+                                </span> Seo Optimization</li>
+                                <li class="feature-disabled"><span class="feature-cross">
+                                    <img src="js/img/Close.svg" alt="James Gouse">
+                                </span> WordPress Integration</li>
+                                <li><span class="feature-disabled"><span class="feature-cross">
+                                    <img src="js/img/Close.svg" alt="James Gouse">
+                                </span> 5 Websites</li>
+                                <li><span class="feature-disabled"><span class="feature-cross">
+                                    <img src="js/img/Close.svg" alt="James Gouse">
+                                </span> Unlimited User</li>
+                                <li class="feature-disabled"><span class="feature-cross">
+                                    <img src="js/img/Close.svg" alt="James Gouse">
+                                </span> 20 GB Bandwidth</li>
+                            </ul>
+                            <button class="order-btn secondary">ORDER NOW</button>
+                        </div>  
+                        <div class="price-card popular">
+                            <h3 class="plan-name">Gold</h3>
+                            <div class="plan-price">
+                                <span class="price-amount">$50.00</span>
+                                <span class="price-period">/Hour</span>
+                            </div>
+                            <p class="plan-description">For Most Businesses That Want To Optimize Web Queries</p>
+                            <ul class="features-list">
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> UI Design</li>
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> Web Development</li>
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> Logo Design</li>
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> Seo Optimization</li>
+                                <li class="feature-disabled"><span class="feature-cross">
+                                    <img src="js/img/Close.svg" alt="James Gouse">
+                                </span> WordPress Integration</li>
+                                <li><span class="feature-disabled"><span class="feature-cross">
+                                    <img src="js/img/Close.svg" alt="James Gouse">
+                                </span> 5 Websites</li>
+                                  <li><span class="feature-disabled"><span class="feature-cross">
+                                    <img src="js/img/Close.svg" alt="James Gouse">
+                                </span> Unlimited User</li>
+                                <li class="feature-disabled"><span class="feature-cross">
+                                    <img src="js/img/Close.svg" alt="James Gouse">
+                                </span> 20 GB Bandwidth</li>
+                            </ul>
+                            <button class="order-btn primary">ORDER NOW</button>
+                        </div>
+                        <div class="price-card">
+                            <h3 class="plan-name">Dimond</h3>
+                            <div class="plan-price">
+                                <span class="price-amount">$80.00</span>
+                                <span class="price-period">/Hour</span>
+                            </div>
+                            <p class="plan-description">For Most Businesses That Want To Optimize Web Queries</p>
+                            <ul class="features-list">
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> UI Design</li>
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> Web Development</li>
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> Logo Design</li>
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> Seo Optimization</li>
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> WordPress Integration</li>
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> 5 Websites</li>
+                                  <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> Unlimited User</li>
+                                <li><span class="feature-check">
+                                    <img src="js/img/Check.svg" alt="James Gouse">
+                                </span> 20 GB Bandwidth</li>
+                            </ul>
+                            <button class="order-btn secondary">ORDER NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recommendations -->
+                <div class="recommendations">
+                    <div class="section-header">
+                        <h2>Recommendations</h2>
+                        <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
+                    </div>
+                    <div class="recommendations-grid">
+                        <div class="recommendation-card">
+                            <div class="stars">
+                                <span class="star">
+                                    <img src="js/img/Star.svg">
+                                </span>
+                                <span class="star">
+                                     <img src="js/img/Star.svg">
+                                </span>
+                                <span class="star">
+                                     <img src="js/img/Star.svg">
+                                </span>
+                                <span class="star">
+                                     <img src="js/img/Star.svg">
+                                </span>
+                                <span class="star">
+                                     <img src="js/img/Star.svg">
+                                </span>
+                            </div>
+                            <h3 class="recommendation-title">Great Quality!</h3>
+                            <p class="recommendation-text">
+                                Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...
+                            </p>
+                            <div class="reviewer">
+                                <div class="reviewer-image">
+                                    <img src="js/img/2594529692d6754ca6af172384e27460243daab5.jpg" alt="James Gouse">
+                                </div>
+                                <div>
+                                    <div class="reviewer-name">James Gouse</div>
+                                    <div class="reviewer-title">Graphic Designer</div>
+                                </div>
+                            </div>
+                        </div>   
+                        <div class="recommendation-card">
+                            <div class="stars">
+                                <span class="star">
+                                    <img src="js/img/Star.svg">
+                                </span>
+                                <span class="star">
+                                     <img src="js/img/Star.svg">
+                                </span>
+                                <span class="star">
+                                     <img src="js/img/Star.svg">
+                                </span>
+                                <span class="star">
+                                     <img src="js/img/Star.svg">
+                                </span>
+                                <span class="star">
+                                     <img src="js/img/Star.svg">
+                                </span>
+                            </div>
+                            <h3 class="recommendation-title">Amazing Work!</h3>
+                            <p class="recommendation-text">
+                                Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...
+                            </p>
+                            <div class="reviewer">
+                                <div class="reviewer-image">
+                                    <img src="js/img/815f1733f05a676c392c0b499c379a1c0aa10c00.jpg" alt="Tiana Philips">
+                                </div>
+                                <div>
+                                    <div class="reviewer-name">Tiana Philips</div>
+                                    <div class="reviewer-title">Photographer</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recommendation-card">
+                            <div class="stars">
+                                <span class="star">
+                                    <img src="js/img/Star.svg">
+                                </span>
+                                <span class="star">
+                                     <img src="js/img/Star.svg">
+                                </span>
+                                <span class="star">
+                                     <img src="js/img/Star.svg">
+                                </span>
+                                <span class="star">
+                                     <img src="js/img/Star.svg">
+                                </span>
+                                <span class="star">
+                                     <img src="js/img/Star.svg">
+                                </span>
+                            </div>
+                            <h3 class="recommendation-title">Great Quality!</h3>
+                            <p class="recommendation-text">
+                                Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...
+                            </p>
+                            <div class="reviewer">
+                                <div class="reviewer-image">
+                                    <img src="js/img/0da48f48217726cd1ea2309493e1aee27c46eb49.jpg" alt="Talan Westervelt">
+                                </div>
+                                <div>
+                                    <div class="reviewer-name">Talan Westervelt</div>
+                                    <div class="reviewer-title">Business Man</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Education -->
+                <div class="education">
+                    <div class="section-header">
+                        <div class="timeline-dots">
+                            <div class="timeline-dot active"></div>
+                            <div class="timeline-dot inactive"></div>
+                            <div class="timeline-dot inactive"></div>
+                        </div>
+                        <h2>Education</h2>
+                        <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
+                    </div>
+                    <div class="timeline-grid">
+                        <div>
+                            <div class="timeline-card">
+                                <div class="timeline-content">
+                                    <h3>University Of Toronto</h3>
+                                    <p>Student</p>
+                                     <span class="timeline-date">Jan 1016 - Dec 2021</span>
+                                </div>
+                            </div>
+                            <div class="timeline-description">
+                                <h3>Certificate Of Web Training</h3>
+                                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui.</p>
+                            </div>
+                        </div>     
+                        <div>
+                            <div class="timeline-card">
+                                <div class="timeline-content">
+                                    <h3>Programming Course</h3>
+                                    <p>Student</p>
+                                </div>
+                                <div class="timeline-date">Jan 1016 - Dec 2021</div>
+                            </div>
+                            <div class="timeline-description">
+                                <h3>Certificate Of Web Training</h3>
+                                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="timeline-card">
+                                <div class="timeline-content">
+                                    <h3>Web Developer Courses</h3>
+                                    <p>Student</p>
+                                </div>
+                                <div class="timeline-date">Jan 1016 - Dec 2021</div>
+                            </div>
+                            <div class="timeline-description">
+                                <h3>Certificate Of Web Training</h3>
+                                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Work History -->
+                <div class="work-history">
+                    <div class="section-header">
+                        <h2>Work History</h2>
+                        <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
+                    </div> 
+                    <div class="timeline-grid">
+                        <div>
+                           <div class="timeline-card">
+                        <div class="timeline-content">
+                            <h3>Lead Web Designer</h3>
+                            <div class="timeline-subinfo">
+                            <p>Student</p>
+                            <span class="timeline-date">Jan 1016 - Dec 2021</span>
+                            </div>
+                        </div>
+                        </div>
+                            <div class="timeline-description">
+                                <h3>Certificate Of Web Training</h3>
+                                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="timeline-card">
+                                <div class="timeline-content">
+                                    <h3>Junior Web Designer</h3>
+                                    <p>Student</p>
+                                </div>
+                                <div class="timeline-date">2017 - 2019</div>
+                            </div>
+                            <div class="timeline-description">
+                                <h3>Certificate Of Web Training</h3>
+                                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="timeline-card">
+                                <div class="timeline-content">
+                                    <h3>Senior Web Designer</h3>
+                                    <p>Student</p>
+                                </div>
+                                <div class="timeline-date">2019 - 2021</div>
+                            </div>
+                            <div class="timeline-description">
+                                <h3>Certificate Of Web Training</h3>
+                                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio -->
+                <div class="portfolio">
+                    <div class="section-header">
+                        <h2>Portfolio</h2>
+                        <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
+                    </div>
+                    <div class="portfolio-filters">
+                        <button class="filter-btn active">All Categories</button>
+                        <button class="filter-btn">UI Design</button>
+                        <button class="filter-btn">Web Templates</button>
+                        <button class="filter-btn">Logo</button>
+                        <button class="filter-btn">Branding</button>
+                    </div>  
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item add">
+                             <img src="js/img/6b12c6e04641cc53b0b077e2d4cfb9067671f268.jpg" alt="">
+    <div class="overlay"></div>
+    <span class="plus">+</span>                 
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="js/img/7eb93e3be23e177f185aaa3c36ad351cb7f7dabc.jpg" alt="">
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="js/img/f1976e033d71514f57f3e0b0aa740de077678add.jpg" alt="">
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="js/img/1.jpg" alt="">
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="js/img/2.jpg" alt="">
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="js/img/3.jpg" alt="">
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="js/img/4.jpg" alt="">
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="js/img/5.jpg" alt="">
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="js/img/6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog -->
+                <div class="blog">
+                    <div class="section-header">
+                        <h2>Blog</h2>
+                        <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
+                    </div>    
+                    <div class="blog-grid">
+                        <div class="blog-card">
+                            <img src="js/img/6b12c6e04641cc53b0b077e2d4cfb9067671f268.jpg" alt="Blog post" class="blog-image">
+                            <div class="blog-content">
+                                <h3 class="blog-title">How To Make Web Templates</h3>
+                                <p class="blog-excerpt">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna</p>
+                                <a href="#" class="read-more">Learn More →</a>
+                            </div>
+                        </div> 
+                        <div class="blog-card">
+                            <img src="js/img/7eb93e3be23e177f185aaa3c36ad351cb7f7dabc.jpg" alt="Blog post" class="blog-image">
+                            <div class="blog-content">
+                                <h3 class="blog-title">Make Business Card</h3>
+                                <p class="blog-excerpt">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna</p>
+                                <a href="#" class="read-more">Learn More →</a>
+                            </div>
+                        </div> 
+                        <div class="blog-card">
+                            <img src="js/img/f1976e033d71514f57f3e0b0aa740de077678add.jpg" alt="Blog post" class="blog-image">
+                            <div class="blog-content">
+                                <h3 class="blog-title">How To Make Flyer Design</h3>
+                                <p class="blog-excerpt">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna</p>
+                                <a href="#" class="read-more">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact">
+  <div class="contact-grid">
+    <!-- Box 1: Form -->
+    <div class="box contact-form">
+      <h2>Leave Us Your Info</h2>
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-input" placeholder="Your Full Name ( Required)">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-input" placeholder="Your Email ( Required)">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-input" placeholder="Subject">
+        </div>
+        <div class="form-group">
+          <textarea class="form-textarea" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="send-btn">SEND MESSAGE</button>
+      </form>
+    </div>
+    <!-- Box 2: Contact Info -->
+    <div class="box contact-info">
+      <h2>Contact Information</h2>
+      <div class="contact-item">
+        <div class="contact-icon">
+          <img src="js/location.svg">
+        </div>
+        <div class="contact-details">
+          <span class="contact-label">Country:</span>
+          <span class="contact-value">Bangladesh</span>
+          <span class="contact-label">City:</span>
+          <span class="contact-value">Dhaka</span>
+          <span class="contact-label">Street:</span>
+          <span class="contact-value">35 Vhatara, Badda</span>
+        </div>
       </div>
-      <div class="download-item">
-        <h3>React JS Version</h3>
-        <a href="https://jstemplate.net/item/portfo-frontity-personal-portfolio-theme" download>Click Here to Download</a>
+      <div class="contact-item">
+        <div class="contact-icon">
+          <img src="mail.svg">
+        </div>
+        <div class="contact-details">
+          <span class="contact-label">Email:</span>
+          <span class="contact-value">Youremail@Gmail.Com</span>
+          <span class="contact-label">Skype:</span>
+          <span class="contact-value">@Yourusername</span>
+          <span class="contact-label">Telegram:</span>
+          <span class="contact-value">@Yourusername</span>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">
+          <img src="js/img/Mobile.svg">
+        </div>
+        <div class="contact-details">
+          <span class="contact-label">Support Services:</span>
+          <span class="contact-value">15369</span>
+          <span class="contact-label">Office:</span>
+          <span class="contact-value">+58 (021)356 587 235</span>
+          <span class="contact-label">Personal:</span>
+          <span class="contact-value">+58 (021)356 587 235</span>
+        </div>
       </div>
     </div>
-  </section>
-
+  </div>
+</div>
+                <!-- Map -->
+                <div class="map">
+                    <img src ="js/img/868758b14c70e561e8902e3f31adf07ae7df8b46.png">
+                </div>
+                <!-- Footer -->
+                <div class="footer">    
+                    <div class="company-logos">
+                        <div class="company-logo">
+                            <img src = "js/img/Frame (1).svg">
+                        </div>
+                        <div class="company-logo">
+                             <img src = "js/img/Frame (2).svg">
+                        </div>
+                        <div class="company-logo">
+                             <img src = "js/img/Frame (3).svg">
+                        </div>
+                        <div class="company-logo">
+                             <img src = "js/img/Frame (4).svg">
+                        </div>
+                    </div>
+                    <p class="copyright">2021 All Rights Reserved.Ojomedia</p>
+                </div>
+            </div>
+            <div class="sideright">
+                    <div class="tabbar">
+                              <img src="js/img/Contrast.svg" alt="Portfolio item">
+                        </div>
+     <div class="tab-icon active">
+      <img src="js/img/Home.svg" alt="" title="Portfolio">
+    </div>
+    <!-- Portfolio icon -->
+    <div class="tab-icon">
+      <img src="js/img/file-code.svg" alt="" title="Portfolio">
+    </div>
+    <!-- Education icon -->
+    <div class="tab-icon">
+      <img src="js/img/cv.svg" alt="" title="Education">
+    </div>
+    <!-- Experience icon -->
+    <div class="tab-icon">
+      <img src="js/img/Portfolio.svg" alt="" title="Experience">
+    </div>
+    <!-- Skills icon -->
+    <div class="tab-icon">
+      <img src="js/img/Blog.svg" alt="" title="Skills">
+    </div>
+    <!-- Contact icon -->
+    <div class="tab-icon">
+      <img src="js/img/Contact.svg" alt="" title="Contact">
+    </div>             
+    </div>
+    <script>
+        // Portfolio filter functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+        // Smooth scrolling for navigation dots
+        document.querySelectorAll('.nav-dot').forEach((dot, index) => {
+            dot.addEventListener('click', function() {
+                const sections = ['hero', 'services', 'pricing', 'recommendations', 'education', 'contact'];
+                const targetSection = document.querySelector(`.${sections[index]}`);
+                if (targetSection) {
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+        // Form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Message sent successfully!');
+        });
+    </script>
 </body>
 </html>
