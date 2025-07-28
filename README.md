@@ -3,5 +3,5 @@
  <h1>🚀<h1/>
     <h1>💬<h1/>
      <h2>Let's Connect</h2>
-Email :2451052133kiet@ou.edu.vn
-<p>GitHub : Here!</p>
+Email : 2451052133kiet@ou.edu.vn
+<p>GitHub : https://github.com/trananhkiet-hub</p>
