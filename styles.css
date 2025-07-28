@@ -304,8 +304,6 @@ background: url(<path-to-image>) lightgray 0px -0.355px / 100% 100.473% no-repea
     background: white;
     width: 970px;
     height : 467px;
-   
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -664,7 +662,8 @@ background: url(<path-to-image>) lightgray 0px -0.355px / 100% 100.473% no-repea
 .timeline-grid {
     display: grid;
     background :#ffffff;
-    padding :30px ;
+    padding :50px ;
+    gap :30px;
   
 }
 
@@ -674,34 +673,54 @@ background: url(<path-to-image>) lightgray 0px -0.355px / 100% 100.473% no-repea
 }
 
 .timeline-content h3 {
-    font-weight: 600;
-    color: #374151;
-    margin-bottom: 4px;
+    color: #222;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
 }
 
 .timeline-content p {
     font-size: 14px;
     color: #6b7280;
 }
+.timeline-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+        }
 
 .timeline-date {
-    background: #FFB400;
-    color: rgb(255, 255, 255);
-    font-size: 12px;
-    padding: 4px 12px;
-    white-space: nowrap;
-      text-align: center;
-    border: 1px solid #FFB400;
-    border-radius: 4px;
-    display: inline-block;
-    font-weight: 500;
+     color: #ffffff;
+     background:#FFB400;
+             padding :2px ;
+             font-size : 12px;
+              border-radius: 2px;
 }
+.timeline-item {
+        display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+        
 .timeline-subinfo {
     display: flex;
     align-items: center;
     gap: 12px; /* khoảng cách giữa Student và thời gian */
     margin-top: 4px;
 }
+ .timeline-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-subtitle {
+            color: #666;
+            margin-bottom: 8px;
+            font-weight: normal;
+        }
 
 .timeline-subinfo p {
     margin: 0;
@@ -709,21 +728,43 @@ background: url(<path-to-image>) lightgray 0px -0.355px / 100% 100.473% no-repea
     color: #6b7280;
 }
 
-.timeline-description {
-    margin-top: 16px;
-}
+
 
 .timeline-description h3 {
     font-weight: 600;
     color: #374151;
     margin-bottom: 8px;
 }
+ .timeline-header {
+            flex: 0 0 300px;
+            padding-right: 30px;
+        }
 
 .timeline-description p {
     font-size: 14px;
     color: #6b7280;
 }
-
+.timeline-divider {
+            display: none;
+        }
+        
+        .timeline-certificate {
+            flex: 1;
+            border-left: 1px solid #eee;
+            padding-left: 30px;
+        }
+        
+        .timeline-certificate h3 {
+            font-size: 1.2rem;
+            color: #000;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .timeline-certificate p {
+            color: #666;
+            line-height: 1.6;
+        }
 /* Portfolio */
 .portfolio {
     margin-bottom: 64px;
